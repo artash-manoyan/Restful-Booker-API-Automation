@@ -9,25 +9,34 @@ This project demonstrates a full CRUD (Create, Read, Update, Delete) lifecycle f
 
 🛠️ Key Technical Features
 
-Dynamic Data Hand-off: Successfully automated the extraction of bookingid and token from response bodies to be reused in subsequent requests.
+Dynamic Data Hand-off: 
+Successfully automated the extraction of bookingid and token from response bodies to be reused in subsequent requests.
 
-Environment Management: Utilized Postman Environment variables to separate the Base URL from the test data, ensuring the collection is portable and scalable.
+Environment Management: 
+Utilized Postman Environment variables to separate the Base URL from the test data, ensuring the collection is portable and scalable.
 
-Auth Implementation: Integrated a secure token-based authentication flow for PUT and DELETE methods using Cookie headers.
+Auth Implementation: 
+Integrated a secure token-based authentication flow for PUT and DELETE methods using Cookie headers.
 
-Status Code Validation: Verified various server responses, including handling the unique "201 Created" quirk during deletion to confirm record removal via negative testing.
+Status Code Validation: 
+Verified various server responses, including handling the unique "201 Created" quirk during deletion to confirm record removal via negative testing.
 
 🧪 Test Scenarios Included
 
-Create Booking (POST): Validates that a new reservation can be added and the ID is saved for future steps.
+Create Booking (POST): 
+Validates that a new reservation can be added and the ID is saved for future steps.
 
-Auth Token Generation (POST): Requests a security key to unlock administrative permissions.
+Auth Token Generation (POST): 
+Requests a security key to unlock administrative permissions.
 
-Get Details (GET): Confirms the server returns the correct user data for the specific ID created.
+Get Details (GET): 
+Confirms the server returns the correct user data for the specific ID created.
 
-Update Booking (PUT): Modifies record details (e.g., changing first name to "QA Journey") and verifies the persistence of the change.
+Update Booking (PUT): 
+Modifies record details (e.g., changing first name to "QA Journey") and verifies the persistence of the change.
 
-Delete & Verify (DELETE/GET): Removes the booking and performs a follow-up GET request to confirm a 404 Not Found response.
+Delete & Verify (DELETE/GET): 
+Removes the booking and performs a follow-up GET request to confirm a 404 Not Found response.
 
 🚀 How to Run
 
