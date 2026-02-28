@@ -1,7 +1,8 @@
 # Restful-Booker-API-Automation
 Automated CRUD lifecycle test suite for a hotel booking API using Postman and JavaScript
 [Readme.md](https://github.com/user-attachments/files/25640772/Readme.md)
-🚀 RESTful-Booker: End-to-End API Automation Suite
+🚀 RESTful-Booker: 
+End-to-End API Automation Suite
 By Artashes Manoyan
 📌 Project Overview
 
