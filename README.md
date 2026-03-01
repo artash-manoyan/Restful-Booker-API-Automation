@@ -48,3 +48,4 @@ Import the collection.json and environment.json files into Postman.
 Select the "Testing 2026" environment.
 
 Run the collection in order to see the full automated flow.
+<img width="2099" height="726" alt="image" src="https://github.com/user-attachments/assets/ec5f8e1b-5a06-4e70-ab01-a36f7cffaae3" />
