@@ -121,7 +121,20 @@
       "name": "Update Booking",
       "request": {
         "method": "PUT",
-        "header": [],
+        "header": [          
+          {
+            "key": "Cookie",
+            "value": "token={{token}}",
+            "type": "text",
+            "uuid": "e1341d17-f83b-490b-9adb-e78f160381fc"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text",
+            "uuid": "469bf13e-487d-488d-9699-6e8bb0465220"
+          }
+        ],
         "body": {
           "mode": "raw",
           "raw": "{\r\n    \"firstname\" : \"QA Journey\",\r\n    \"lastname\" : \"Sahakyan\",\r\n    \"totalprice\" : 100,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2026-01-02\",\r\n        \"checkout\" : \"2026-01-03\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
